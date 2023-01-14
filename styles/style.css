@@ -158,9 +158,11 @@ footer{
 @media screen and (max-width: 576px) {
     .header-primary{
         flex-direction: column-reverse;
+        margin-left: 700px;
     } 
     .popular-colection{
         grid-template-columns: repeat(1, 1fr);
+        
         
         
     }
@@ -170,13 +172,17 @@ footer{
         background: #FFFFFF;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         border-radius: 5px;
-        width: 100%;
-       height: 800px;
+        width: 392px;
+       height: 500px;
        padding: 20px;
        
     }
     .fetaured{
         /* flex-direction: column-reverse; */
         margin-top: 200px;
+    }
+    footer{
+        width: 100%;
+
     }
 }
